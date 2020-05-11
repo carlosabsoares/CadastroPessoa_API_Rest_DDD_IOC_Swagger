@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="2.0.0-preview1-final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CadastroPessoa.Application\CadastroPessoa.Application.csproj" />
+    <ProjectReference Include="..\CadastroPessoa.Domain.Core\CadastroPessoa.Domain.Core.csproj" />
+    <ProjectReference Include="..\CadastroPessoa.Domain\CadastroPessoa.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
